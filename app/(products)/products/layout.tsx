@@ -3,13 +3,13 @@ import React, { ReactNode } from "react";
 const layout = ({ children }: { children: ReactNode }) => {
   return (
     <div>
-      <div className="text-center pt-6 text-2xl text-gray-500">
+      <header className="text-center p-6 text-2xl text-gray-500">
         Products Header
-      </div>
+      </header>
       {children}
-      <div className="text-center pt-6 text-2xl  text-gray-500">
+      <footer className="text-center pt-6 text-2xl  text-gray-500">
         Products Footer
-      </div>
+      </footer>
     </div>
   );
 };
