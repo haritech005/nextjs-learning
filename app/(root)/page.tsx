@@ -15,7 +15,7 @@ export default function Home() {
       <h1 className="text-3xl">Welcome To Next.js</h1>
       <Tech />
       <li>
-        <Link href="/about/users">Users</Link>
+        <Link href="/about">Users</Link>
       </li>
       <li>
         <Link href="/products">Products</Link>
